@@ -1,0 +1,14 @@
+When I wonder why
+What's never been's never been so
+We would lie when we say,
+'Yes, you know we all love you'
+What's never been's never been so
+Hell, we're nowhere now.
+
+This is a sample input.
+Here is a series of blanks      .
+One more      here.
+Alrighttt.
+
+Here's a tab	and another		.
+And a backslash\here.
