@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-
-int main() {
+/* -*- SilverNuke911 -*- */
+void eratosthenes() {
     int N = 1000;
     int arr[N + 1];  // Need index 0-100 (N+1 elements)
     
@@ -26,7 +26,11 @@ int main() {
             printf("%d\n", i);
         }
     }
-    
-    return 0;
+}
+
+int main()
+{
+	eratosthenes();
+	return 0;
 } 
 

@@ -1,3 +1,4 @@
+/* -*- SilverNuke911 -*- */
 #include <stdio.h>
 
 #define in  1

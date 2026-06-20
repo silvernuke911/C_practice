@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* -*- SilverNuke911 -*- */
 // Take an input, replace all tabs with '\t', all backspaces with \b
 // all newlines with \nn and each backslash with \\
 

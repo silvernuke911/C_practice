@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* -*- SilverNuke911 -*- */
 int main()
 {
 //	long nc = 0;

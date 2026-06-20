@@ -1,3 +1,4 @@
+/* -*- SilverNuke911 -*- */
 #include <stdio.h>
 
 #define in  1
@@ -43,7 +44,7 @@ int main()
 
 	state = out;
 	cur_len = 0;
-	//  Pass 2: find the frequency of each world length
+	//  Pass 2 - find the frequency of each world length
  	while ((c = getchar()) != EOF) {
      	if (isspace(c)) {
 			if (state == in) {
@@ -76,12 +77,14 @@ int main()
 			}
 		}
 		printf("\n");
-	}	
+	}
+
 	// Printing axes
 	for (int i = 1; i <= max_len; i++) {
 		printf("---");
 	}	
 	printf("\n");
+
 	// Printing lengths
 	for (int i = 1; i <= max_len; i++) {
 		printf("%3d",i);
@@ -90,6 +93,7 @@ int main()
 	for (int i = 1; i <= max_len; i++) {
 		printf("---");
 	}	
+
 	// Printing the freq at lengths
 	printf("\n");
 	for (int i = 1; i <= max_len; i++) {
@@ -99,9 +103,3 @@ int main()
 	printf("\n----- File word length frequency -----\n");
 }
 
-
-// THIS IS NOT PART OF THE PROGRAM
-
-int define(int yes) {
-
-}

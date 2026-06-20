@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* -*- SilverNuke911 -*- */
 // read a character and output it (I guess) 
 
 int main() 

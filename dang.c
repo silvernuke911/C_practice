@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* -*- SilverNuke911 -*- */
 int main() {
 	printf("When I wonder why\n");
 	printf("What's never been's never been so\n");

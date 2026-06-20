@@ -1,17 +1,19 @@
 He're's my checklist for tomorrow's staycaytion!
 ------------------------------------------------
-[ ] towel
-[ ] soap/shampoo
-[ ] shaver
-[ ] chopstick
-[ ] coffee
-[ ] lube (Aloe vera) 
-[ ] 3 shirts
-[ ] 3 short
-[ ] 2 boxer
+[x] Presentation 
+[ ] Pathways stuff
+[x] towel
+[x] soap/shampoo
+[x] shaver
+[x] chopstick
+[x] coffee
+[x] lube (Aloe vera) 
+[x] 3 shirts
+[x] 3 short
+[x] 2 boxer
 [ ] fishball
 [ ] tocino
-[ ] laptop
-	[ ] download mubi
-	[ ] charger
-
+[x] laptop
+	[x] download mubi
+	[x] charger
+[x] garbage bag

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* -*- SilverNuke911 -*- */
 // Verify that the expression getchar() != EOF is either 0 or 1.
 // EOF in this case is Ctrl + Z
 

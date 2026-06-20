@@ -24,7 +24,7 @@ plt.plot(
         list(range(len(numlist))),
         numlist, 
         color = "r", 
-        lw = 1 
+        lw = 1
     )
 plt.xlim(0, len(numlist))
 plt.ylim(0, None)

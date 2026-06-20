@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* -*- SilverNuke911 -*- */
 // take an input file, check if there are spaces
 // if there are multiple, just compress it to one space
 int main()

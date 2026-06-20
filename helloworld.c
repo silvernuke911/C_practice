@@ -1,6 +1,6 @@
-#include <stdio.h>	\\include information about standard library
+#include <stdio.h>	// include information about standard library
 
-int main()			\\ define a function called main
+int main()			// define a function called main
 {
     printf("Hello World\n");
 }
