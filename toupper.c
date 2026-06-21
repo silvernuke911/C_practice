@@ -16,7 +16,6 @@ char* to_upper_copy( const char* s) {
 		return NULL; // out of memory
 	}
 	
-	// strcpy(p,s);
 	for (int i = 0; i <= len; i++) {
 		p[i] = s[i];
 	}
@@ -102,12 +101,16 @@ int main() {
 	
 	// perform a to-upper operation on the word itself
 	to_upper_ptr(word);
+	
 	// check the current original 
 	printf("words up ptr :\t%s\n", word);
+
 	// perform a to-lower operation on the word itself
 	to_lower_ptr(word);
+
 	// check what happened to the original
 	printf("words lw ptr :\t%s\n", word);
+
 	return 0;
 }
 // what did we learn?
@@ -122,5 +125,5 @@ int main() {
 // not on whether you use [] or *.
 
 
-// Wallahi habibi that is all we learned - Silvernuke911
+// Wallahi habibi that is all we learned 
 /* -*- SilverNuke911 -*- */
