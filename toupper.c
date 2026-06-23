@@ -5,7 +5,8 @@
 // this function makes a new string and prints that out 
 // it takes the string 's', makes a copy of it, and performs 
 // a to-upper operation, and returns the copied string
-char* to_upper_copy( const char* s) {
+char* to_upper_copy( const char* s)
+{
 	// int len = strlen(s);
 	int len;
 	for (len = 0; s[len] != '\0'; len++){}; // replaced with a for loop to find strlen
@@ -31,7 +32,8 @@ char* to_upper_copy( const char* s) {
 // this function makes a new string and prints that out 
 // it takes the string 's', makes a new copy, performs a 
 // to-lower operation, and returns the copied string
-char* to_lower_copy( const char* s) {
+char* to_lower_copy( const char* s) 
+{
 	// int len = strlen(s);
 	int len;
 	for (len = 0; s[len] != '\0'; len++){}; 
@@ -58,7 +60,8 @@ char* to_lower_copy( const char* s) {
 // this function takes the mutable string and changes its contents
 // it takes the adress of a mutable array, and replaces the contents 
 // of those adresses with a toupper operation
-void to_upper_ptr(char* s) {
+void to_upper_ptr(char* s)
+{
 	for (int i = 0; s[i] != '\0'; i++) {
 		if ((s[i] >= 'a') && (s[i] <= 'z')) {
 			s[i] = s[i] - ('a' - 'A');
@@ -70,7 +73,8 @@ void to_upper_ptr(char* s) {
 // this function takes the mutable string and changes its contents
 // it takes the address of a mutable array, and replaces the contents 
 // with a tolower operation, changing the original word.
-void to_lower_ptr(char* s) {
+void to_lower_ptr(char* s)
+{
 	for (int i = 0; s[i] != '\0'; i++) {
 		if ((s[i] >= 'A') && (s[i] <= 'Z')) {
 			s[i] = s[i] + ('a' - 'A');
@@ -78,7 +82,8 @@ void to_lower_ptr(char* s) {
 	}
 }
 
-int main() {
+int main()
+{
 	// make a sample word
 	char word[] = "ThiS iS a BunCh oF wOrDs";
 	printf("words        :\t%s\n", word);
@@ -127,3 +132,4 @@ int main() {
 
 // Wallahi habibi that is all we learned 
 /* -*- SilverNuke911 -*- */
+
